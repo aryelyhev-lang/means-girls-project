@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    height: 100hv;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 197, 225);
+}
+
+header {
+    background-color: rgb(0, 244, 244);
+    width: 90%;
+    height: 300px;
+    margin-top: 80px;
+    display: flex;
+    gap: 50px;
+}
+
+main {
+    background-color: blueviolet;
+    width: 90%;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+
+footer {
+    background-color: rgb(219, 1, 143);
+    width: 90%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.meangirl {
+    background-color: bisque;
+    width: 15%;
+    height: 30px;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.meangirl h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+   
+
+}
+
+.titulo {
+    background-color: rgb(0, 255, 145);
+    width: 40%;
+    height: 300px;
+}
+
+.quadrado {
+    background-color: bisque;
+    width: 25%;
+    height: 250px;
+    margin: 90px;
+}
+
+.conteiner1 {
+    background-color: rgb(195, 64, 160);
+    width: 45%;
+    height: 250px;
+    margin: 20px;
+   
+}
+
+.conteiner2 {
+    background-color: rgb(255, 0, 187);
+    width: 25%;
+    height: 250px;
+    margin: 20px;
+}
+
+.conteiner3 {
+    background-color: rgb(255, 0, 187);
+    width: 25%;
+    height: 250px;
+    margin: 20px;
+}
+
+.rodape{
+    background-color: rgb(85, 182, 255);
+    width: 30%;
+    height: 70px;
+  
+}
