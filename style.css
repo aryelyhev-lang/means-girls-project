@@ -7,12 +7,19 @@ body {
     background-color: rgb(255, 197, 225);
 }
 
-header {
-    background-color: rgb(0, 244, 244);
+.caneta{
+    position: absolute;
+    z-index: 10;
+    width: 5%;
+    height: auto;
+    object-fit: cover;
+}
+header {                                                                     
+    background-color: #FEE9F0;
     width: 90%;
     height: 300px;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 3%;
     display: flex;
     gap: 20%;
     padding: 5%;
@@ -41,17 +48,19 @@ footer {
 
 .botao {
     background-color: #FEC5D4;
-    border-radius: 15% 15% 15% 15%;
+    border-radius: 25% 25% 25% 25%;
     box-shadow: 10px 50px 50% #693845;
-   
+    padding: 20px;
+    
+ 
     
 }
 
 .meangirl h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #E37590;
-    font-size: 30px;
-    border-radius: 30px;
+    font-size: 20px;
+    
 }
 
 
@@ -69,16 +78,24 @@ footer {
 }
 
 .titulo {
-    background-color: rgb(0, 255, 145);
+    background-color: #FEE9F0;
     align-items: center;
     width: 400px;
-    height: 22vh;
+    height: 300px;
     display: flex;
+    position: relative;
    
 }
 
+.vip{
+    position: absolute;
+    z-index: 1;
+   
+    
+}
+
 .quadrado {
-    background-color: bisque;
+    background-color: #FEE9F0;
     align-items: center;
     width: 400px;
     height: 22vh;
